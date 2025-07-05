@@ -19,10 +19,11 @@ export const themeConfig = {
       100: "#221692",
       200: "#1A1354",
       300: "#221690",
+      400: "#1F157C",
       900: "#282C49",
     },
     secondary: {
-      500: "#F47B10",
+      500: "#FDAF17",
     },
     thirdinary: {
       500: "#13C19F",
@@ -39,7 +40,11 @@ export const themeConfig = {
       500: "#E2DBC4",
     },
     gray: {
-      300: "#EBEBEB",
+      200: "#A4A7AE",
+      300: "#1F2022",
+      400: "#FAFAFA",
+      500: "#CECECE",
+      600: "#717680",
     },
     "app-neutral": {
       600: "#F9FAFB",
@@ -59,6 +64,7 @@ export const themeConfig = {
     yellow: {
       100: "#FFAE1E",
       tag: "#EAB308",
+      dot: "#FDAF17",
     },
     red: {
       recommend: "#FF0000",

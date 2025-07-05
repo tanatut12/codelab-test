@@ -5,14 +5,16 @@ import { IFilter } from "@src/interfaces/common.interface";
 
 interface IProps<T = string> {
   filterOptions: IFilter<T>[];
+  activeFilterState: T | null;
   onChange: (key: T) => void;
 }
 
 const Filter = <T extends string | number = string>({
   filterOptions,
+  activeFilterState,
   onChange,
 }: IProps<T>) => {
-  const [activeFilter, setActiveFilter] = useState<T | null>(null);
+  const [activeFilter, setActiveFilter] = useState<T | null>(activeFilterState);
 
   const handleFilterClick = (key: T) => {
     setActiveFilter(activeFilter === key ? null : key);

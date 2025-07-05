@@ -29,6 +29,7 @@ const CouponList = () => {
             { key: COUPON_TYPE.FREEBIE, label: "ของแถม" },
             { key: COUPON_TYPE.BRAND, label: "แบรนด์ดัง" },
           ]}
+          activeFilterState={COUPON_TYPE.DISCOUNT}
           onChange={handleFilterChange}
         />
       </div>

@@ -24,7 +24,7 @@ export const coupons: ICoupon[] = [
     name: "ส่วนลด 15% สูงสุด 500 ฿",
     description: "สามารถใช้งานได้ถึง 31 Mar 2026",
     tag: "ลูกค้าใหม่",
-    recommend: true,
+    recommend: false,
     type: COUPON_TYPE.DISCOUNT,
   },
   {
@@ -40,7 +40,7 @@ export const coupons: ICoupon[] = [
     name: "ลดทันที 1,000 ฿ เมื่อซื้อครบ 10,000 ฿",
     description: "สามารถใช้งานได้ถึง 30 Jun 2026",
     tag: "Big Sale",
-    recommend: true,
+    recommend: false,
     type: COUPON_TYPE.DISCOUNT,
   },
   {
@@ -56,7 +56,7 @@ export const coupons: ICoupon[] = [
     name: "ลดทันที 150 ฿ เมื่อซื้อครบ 1,500 ฿",
     description: "สามารถใช้งานได้ถึง 20 May 2026",
     tag: "Flash Sale",
-    recommend: true,
+    recommend: false,
     type: COUPON_TYPE.DISCOUNT,
   },
   {

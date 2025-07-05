@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss";
 
 export const themeConfig = {
   fontFamily: {
-    FCIconic: ["FC Iconic", "sans-serif"],
+    FCIconic: ["Noto Sans Thai", "sans-serif"],
   },
   fontSize: {
     base: "1.25rem",
@@ -18,6 +18,7 @@ export const themeConfig = {
     primary: {
       100: "#221692",
       200: "#1A1354",
+      300: "#221690",
       900: "#282C49",
     },
     secondary: {
@@ -55,6 +56,13 @@ export const themeConfig = {
     error: "#F5222D",
     description: "#545555",
     accessibilityYellow: "#FEFF03",
+    yellow: {
+      100: "#FFAE1E",
+      tag: "#EAB308",
+    },
+    red: {
+      recommend: "#FF0000",
+    },
     overlay: {
       tertiary: "rgba(0, 0, 0, 0.45)",
     },
@@ -97,6 +105,8 @@ const config: Config = {
         description: themeConfig.color.description,
         overlay: themeConfig.color.overlay,
         accessibilityYellow: themeConfig.color.accessibilityYellow,
+        yellow: themeConfig.color.yellow,
+        red: themeConfig.color.red,
       },
       screens: themeConfig.screens,
       backgroundImage: {

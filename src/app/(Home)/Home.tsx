@@ -1,6 +1,7 @@
 import Banner from "@src/components/Banner";
 import Brand from "@src/components/Brand";
 import Categories from "@src/components/Categories";
+import CouponList from "@src/components/CouponList";
 import Map from "@src/components/Map";
 import MarqeeRibbon from "@src/components/MarqeeRibbon";
 import React from "react";
@@ -13,7 +14,7 @@ const Home = () => {
       <Map />
       <Categories />
       <MarqeeRibbon />
-      <div>{/* cupon */}</div>
+      <CouponList />
       <div>{/* hightlight product */}</div>
     </div>
   );

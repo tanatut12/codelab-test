@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @font-face {
   font-family: "FC Iconic";
   src: url("/fonts/FCIconicRegular.ttf") format("truetype");
   font-weight: 400;
@@ -14,7 +16,7 @@
   src: url("/fonts/FCIconicBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
-}
+} */
 
 @keyframes marquee {
   0% { transform: translateX(0); }

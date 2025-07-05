@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex-shrink-0">
           <Image src={JibMenuIcon} alt="jib-icon" width={30} height={20} />
         </div>
-        <div className="flex items-center gap-2 md:gap-4 flex-1 max-w-full mx-auto min-w-0">
+        <div className="flex items-center gap-2 md:gap-4 flex-1 max-w-[1300px] mx-auto min-w-0">
           <div className="flex-shrink-0">
             <Image src={JibIcon} alt="jib-icon" width={58} height={40} />
           </div>

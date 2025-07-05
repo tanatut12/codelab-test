@@ -35,7 +35,7 @@ const ProductList: FC<IProps> = ({ activeCategory, activeFilter }) => {
         {filteredProducts.map((product) => (
           <div
             key={product.id}
-            className="relative max-w-[184px] max-h-[334px] flex-shrink-0"
+            className="relative max-w-[184px] h-[334px] flex-shrink-0 overflow-hidden"
           >
             <div className="relative flex flex-col items-center pt-[33px]">
               <Image

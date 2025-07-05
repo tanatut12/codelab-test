@@ -53,7 +53,6 @@ const ProductHead: FC<IProps> = ({ onCategoryChange, activeCategory }) => {
               <Image
                 src={category.bgImage}
                 alt={category.label1}
-                fill
                 className="object-contain"
                 priority={category.id === 1}
               />

@@ -1,9 +1,9 @@
 import { IProduct } from "@src/interfaces/product.interface";
 
 import product from "@public/assets/svgs/product/product.svg";
-import productHead1 from "@public/assets/svgs/product/product-head1.svg";
-import productHead2 from "@public/assets/svgs/product/product-head2.svg";
-import productHead3 from "@public/assets/svgs/product/product-head3.svg";
+import productHead1 from "../../public/assets/svgs/product/product-head1.svg";
+import productHead2 from "../../public/assets/svgs/product/product-head2.svg";
+import productHead3 from "../../public/assets/svgs/product/product-head3.svg";
 import headIcon1 from "@public/assets/svgs/product/head-icon1.svg";
 import headIcon2 from "@public/assets/svgs/product/head-icon2.svg";
 import headIcon3 from "@public/assets/svgs/product/head-icon3.svg";

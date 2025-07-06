@@ -31,7 +31,7 @@ const InfluencerList = () => {
               )}
               style={{
                 backgroundImage: `url(/assets/svgs/influencer/influ-bg.svg)`,
-                backgroundSize: currentActive === index ? "contain" : "cover",
+                backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
               }}

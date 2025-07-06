@@ -118,6 +118,8 @@ const config: Config = {
       backgroundImage: {
         "primary-gradient-1":
           "linear-gradient(90deg, #221692 50%, #1A1354 60%)",
+        "influencer-gradient":
+          "linear-gradient(0deg, #221692 10%, transparent 35%)",
         leaf: "url('/svgs/leaf.svg')",
         aboutPlantneryMobile:
           "url('/images/about-plantnery-footage-mobile.png')",

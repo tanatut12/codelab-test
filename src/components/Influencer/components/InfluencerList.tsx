@@ -24,7 +24,7 @@ const InfluencerList = () => {
           >
             <div
               className={cn(
-                "relative w-[212px] h-[496px] rounded-2xl overflow-hidden transition-all duration-300 ease-in-out",
+                "relative w-[212px] h-[496px] rounded-2xl overflow-hidden transition-all duration-500 ease-in-out",
                 {
                   "w-[496px] z-50 overflow-visible": currentActive === index,
                 }
@@ -58,10 +58,11 @@ const InfluencerList = () => {
             </div>
             <div
               className={cn(
-                "absolute bottom-0 rounded-b-2xl pt-6 px-6 left-2 z-30 p-4 w-[212px]",
+                "absolute bottom-0 rounded-b-2xl pt-6 px-6 left-2 z-30 p-4 w-[212px] transition-all duration-300 ease-in-out",
                 {
-                  "bottom-1 left-[233px] z-50 w-[270px] h-[296px]":
+                  "bottom-1 left-[233px] z-50 w-[270px] h-[296px] delay-150":
                     currentActive === index,
+                  "delay-200": currentActive !== index,
                 }
               )}
             >
@@ -85,8 +86,9 @@ const InfluencerList = () => {
                   className={cn(
                     "transition-all duration-500 ease-out overflow-hidden",
                     {
-                      "max-h-[200px] opacity-100": currentActive === index,
-                      "max-h-0 opacity-0": currentActive !== index,
+                      "max-h-[200px] opacity-100 delay-300":
+                        currentActive === index,
+                      "max-h-0 opacity-0 delay-0": currentActive !== index,
                     }
                   )}
                 >

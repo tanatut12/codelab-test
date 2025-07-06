@@ -14,8 +14,8 @@ const InfluencerList = () => {
   };
 
   return (
-    <div className="max-w-[1516px] max-h-[600px] overflow-hidden mx-auto px-4 mb-8">
-      <div className="flex items-start pt-[43px] pl-[65px] overflow-x-hidden">
+    <div className="max-w-[1516px] max-h-[600px] overflow-hidden scrollbar-hide mx-auto px-4 mb-8">
+      <div className="flex items-start pt-[43px] pl-[65px] overflow-x-hidden scrollbar-hide">
         {influencer.map((item, index) => (
           <div
             key={item.id}

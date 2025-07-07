@@ -4,8 +4,9 @@ import Image from "next/image";
 import JibIcon from "@public/assets/svgs/jib-icon.svg";
 import JibMenuIcon from "@public/assets/svgs/jib-svg-icon.svg";
 import { Input } from "antd";
-import { FaUserCircle } from "react-icons/fa";
+import { FaRegHeart, FaUserCircle } from "react-icons/fa";
 import { SearchOutlined } from "@ant-design/icons";
+import { MdOutlineShoppingCart } from "react-icons/md";
 
 const Header = () => {
   return (
@@ -25,10 +26,22 @@ const Header = () => {
               className="w-full"
             />
           </div>
-          <div className="flex gap-2 md:gap-3 flex-shrink-0">
-            <FaUserCircle size={24} className="text-white" />
-            <FaUserCircle size={24} className="text-white" />
-            <FaUserCircle size={24} className="text-white" />
+          <div className="flex gap-6 flex-shrink-0">
+            <div className="relative">
+              <FaRegHeart size={24} className="text-white" />
+              <div className="absolute top-2.5 -right-3.5 bg-yellow-dot px-1 text-white text-xs font-bold rounded-full flex items-center justify-center">
+                99+
+              </div>
+            </div>
+            <div className="relative">
+              <MdOutlineShoppingCart size={24} className="text-white" />
+              <div className="absolute top-2.5 -right-3.5 bg-yellow-dot px-1 text-white text-xs font-bold rounded-full flex items-center justify-center">
+                99+
+              </div>
+            </div>
+            <div className="relative">
+              <FaUserCircle size={24} className="text-white" />
+            </div>
           </div>
         </div>
       </div>

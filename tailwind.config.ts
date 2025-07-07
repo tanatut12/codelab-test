@@ -118,6 +118,8 @@ const config: Config = {
       backgroundImage: {
         "primary-gradient-1":
           "linear-gradient(90deg, #221692 50%, #1A1354 60%)",
+        "banner-gradient-1":
+          "linear-gradient(90deg, #2C1A7000 0%, #2C1A70CC 80%)",
         "influencer-gradient":
           "linear-gradient(0deg, #221692 10%, transparent 35%)",
         leaf: "url('/svgs/leaf.svg')",

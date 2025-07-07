@@ -26,3 +26,8 @@ export interface IProductHead {
   bgImage: string;
   category: PRODUCT_CATEGORY;
 }
+
+export interface IProductSlide {
+  id: number;
+  image: string;
+}

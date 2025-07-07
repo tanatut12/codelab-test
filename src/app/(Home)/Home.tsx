@@ -6,6 +6,7 @@ import Influencer from "@src/components/Influencer";
 import Map from "@src/components/Map";
 import MarqeeRibbon from "@src/components/MarqeeRibbon";
 import Product from "@src/components/Product";
+import Slide from "@src/components/Slide";
 import { PRODUCT_CATEGORY } from "@src/constants/enum/product.enum";
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
@@ -37,7 +38,9 @@ const Home = () => {
         </a>
       </div>
       <Influencer />
-      {/* product slider */}
+      <div className="mb-40">
+        <Slide />
+      </div>
     </div>
   );
 };

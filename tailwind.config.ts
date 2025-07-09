@@ -51,6 +51,10 @@ export const themeConfig = {
       700: "#8C8C8C",
       800: "#595959",
     },
+    search: {
+      100: "#646464",
+      200: "#454545",
+    },
     darker: "#595959",
     darkGreen: "#466F6D",
     grayGreen: "#354646",

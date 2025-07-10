@@ -4,7 +4,7 @@ import Timer from "./Timer";
 import ProgressWithFire from "./ProgressWithFire";
 import backToSchool from "@public/assets/svgs/back-to-school.svg";
 import Image from "next/image";
-
+import socialWhite from "@public/assets/svgs/social/social-white.svg";
 const BannerCover = () => {
   return (
     <div className="relative">
@@ -18,6 +18,15 @@ const BannerCover = () => {
         <div className="w-[480px] h-[132px]">
           <Timer />
           <ProgressWithFire />
+          <div className="flex justify-end items-center mr-[62px] gap-1">
+            <p className="text-white text-[7px]">ต้องการติดต่อเรา</p>
+            <Image
+              src={socialWhite}
+              alt="social-white"
+              width={112}
+              height={14}
+            />
+          </div>
         </div>
       </div>
       <div className="absolute -top-[50px] left-0">

@@ -18,7 +18,7 @@ const Brand = () => {
                 key={idx}
                 src={img.src}
                 alt={`brand-row1-${idx}`}
-                className="h-8 md:h-12 object-contain opacity-60 mx-8"
+                className="h-6 laptop:h-8 laptop-lg:h-12 object-contain opacity-60 mx-4 laptop:mx-8"
                 draggable={false}
               />
             ))}
@@ -42,7 +42,7 @@ const Brand = () => {
                 key={idx}
                 src={img.src}
                 alt={`brand-row2-${idx}`}
-                className="h-8 md:h-12 object-contain opacity-60 mx-8"
+                className="h-6 laptop:h-8 laptop-lg:h-12 object-contain opacity-60 mx-4 laptop:mx-8"
                 draggable={false}
               />
             ))}

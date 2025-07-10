@@ -79,10 +79,14 @@ export const themeConfig = {
   },
   screens: {
     form: "640px",
+    tablet: "768px",
+    laptop: "1024px",
+    "laptop-lg": "1280px",
+    content: "1008px",
     app: "1214px",
     "app-lg": "1264px",
     "app-extra": "1440px",
-    content: "1008px",
+    desktop: "1536px",
     ultra: "3440px",
   },
 };

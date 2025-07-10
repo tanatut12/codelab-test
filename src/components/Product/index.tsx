@@ -32,21 +32,25 @@ const Product: FC<IProps> = ({ activeCategoryState }) => {
     setActiveCategory(key);
   };
   return (
-    <div className="max-w-[1263px] mx-auto flex justify-between gap-[32px]">
-      <ProductHead
-        onCategoryChange={handleCategoryChange}
-        activeCategory={activeCategory}
-      />
-      <div className="flex-1 pt-4 overflow-hidden">
-        <ProductFilter
-          header={activeCategory}
-          activeFilterState={activeFilter}
-          onFilterChange={handleFilterChange}
-        />
-        <ProductList
-          activeCategory={activeCategory}
-          activeFilter={activeFilter}
-        />
+    <div className="max-w-[95vw] laptop:max-w-[1000px] laptop-lg:max-w-[1200px] app:max-w-[1263px] mx-auto px-2 laptop:px-0">
+      <div className="flex flex-col laptop:flex-row justify-between gap-4 laptop:gap-[32px]">
+        <div className="flex-shrink-0">
+          <ProductHead
+            onCategoryChange={handleCategoryChange}
+            activeCategory={activeCategory}
+          />
+        </div>
+        <div className="flex-1 pt-4 overflow-hidden min-w-0">
+          <ProductFilter
+            header={activeCategory}
+            activeFilterState={activeFilter}
+            onFilterChange={handleFilterChange}
+          />
+          <ProductList
+            activeCategory={activeCategory}
+            activeFilter={activeFilter}
+          />
+        </div>
       </div>
     </div>
   );

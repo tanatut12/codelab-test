@@ -19,18 +19,20 @@ const Footer = () => {
     <div className="bg-light-300">
       <FooterSection0 />
       <div className="bg-primary-100 flex">
-        <div className="max-w-[1440px] mx-auto pt-[72px] flex gap-18">
-          <div className="">
-            <FooterSection1 />
-          </div>
-          <div className="flex-1">
-            <FooterSection2 />
+        <div className="max-w-[95vw] laptop:max-w-[1200px] laptop-lg:max-w-[1400px] app-extra:max-w-[1440px] mx-auto pt-8 laptop:pt-[72px] px-4 laptop:px-0">
+          <div className="flex flex-col laptop:flex-row gap-8 laptop:gap-18">
+            <div className="">
+              <FooterSection1 />
+            </div>
+            <div className="flex-1">
+              <FooterSection2 />
+            </div>
           </div>
         </div>
       </div>
-      <div className="bg-primary-100 flex justify-center pt-4 pb-12">
-        <div className=" flex justify-end max-w-[1100px]">
-          <div className="flex gap-10">
+      <div className="bg-primary-100 flex justify-center pt-4 pb-12 px-4">
+        <div className="flex justify-center laptop:justify-end max-w-[95vw] laptop:max-w-[1100px] w-full">
+          <div className="flex flex-col laptop:flex-row gap-6 laptop:gap-10">
             <div>
               <div className="flex justify-center">
                 <p className="text-2sm text-white">จัดส่งสินค้าโดย</p>

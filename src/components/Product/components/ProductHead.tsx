@@ -36,7 +36,7 @@ const ProductHead: FC<IProps> = ({ onCategoryChange, activeCategory }) => {
   };
 
   return (
-    <div className="max-w-[317px] max-h-[411.24px] relative">
+    <div className="w-full max-w-[280px] laptop:max-w-[317px] max-h-[350px] laptop:max-h-[411.24px] relative mx-auto laptop:mx-0">
       <Carousel
         ref={carouselRef}
         autoplay={false}
@@ -49,7 +49,7 @@ const ProductHead: FC<IProps> = ({ onCategoryChange, activeCategory }) => {
       >
         {productCategories.slice(0, 3).map((category) => (
           <div key={category.id} className="relative">
-            <div className="relative w-[317px] h-[411.24] overflow-hidden rounded-lg">
+            <div className="relative w-full h-[350px] laptop:h-[411.24px] overflow-hidden rounded-lg">
               <Image
                 src={category.bgImage}
                 alt={category.label1}

@@ -46,3 +46,20 @@ html, body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+/* Responsive improvements for small laptop screens */
+@media (max-width: 1280px) {
+  /* Ensure content doesn't overflow on smaller laptop screens */
+  .container {
+    max-width: 95vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Prevent content from being too close to screen edges on small laptops */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  body {
+    font-size: 1.1rem;
+  }
+}

@@ -20,11 +20,11 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-primary-gradient-1 h-14 flex items-center justify-between pl-4 pr-4 overflow-hidden relative z-50">
+      <div className="bg-primary-gradient-1 h-14 flex items-center justify-between px-2 laptop:px-4 overflow-hidden relative z-50">
         <div className="flex-shrink-0">
           <Image src={JibMenuIcon} alt="jib-icon" width={30} height={20} />
         </div>
-        <div className="flex items-center gap-2 md:gap-4 flex-1 max-w-[1300px] mx-auto min-w-0">
+        <div className="flex items-center gap-2 laptop:gap-4 flex-1 max-w-[95vw] laptop:max-w-[1200px] laptop-lg:max-w-[1240px] app:max-w-[1300px] mx-auto min-w-0">
           <div className="flex-shrink-0">
             <Image src={JibIcon} alt="jib-icon" width={58} height={40} />
           </div>
@@ -68,7 +68,7 @@ const Header = () => {
             onClick={() => setIsSearchOpen(false)}
           />
 
-          <div className="fixed top-[70px] left-4 right-4 bg-white max-w-[1300px] mx-auto z-50 shadow-lg max-h-[80vh] overflow-y-auto rounded-xl">
+          <div className="fixed top-[70px] left-2 right-2 laptop:left-4 laptop:right-4 bg-white max-w-[95vw] laptop:max-w-[1200px] laptop-lg:max-w-[1240px] app:max-w-[1300px] mx-auto z-50 shadow-lg max-h-[80vh] overflow-y-auto rounded-xl">
             <div className="mx-auto p-4">
               <div className="min-h-[400px]">
                 <div className="mb-6">

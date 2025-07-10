@@ -81,6 +81,7 @@ export const themeConfig = {
     form: "640px",
     tablet: "768px",
     laptop: "1024px",
+    "laptop-md": "1600px",
     "laptop-lg": "1280px",
     content: "1008px",
     app: "1214px",
